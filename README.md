@@ -6,12 +6,11 @@ animate.css 是一个来自国外的 CSS3 动画库，它预设了抖动(shake)�
 <h2>使用方法</h2>
 <h3>1. 引入文件</h3>
 <pre>
-&lt;<span class="pl-ent">link</span> type="text/css" rel="stylesheet" href="animate.css" /&gt;
+&lt;link type="text/css" rel="stylesheet" href="animate.css" /&gt;
 </pre>
 <h3>2. HTML及使用</h3>
 <pre>
-<div class="animated bounce" id="vflyweb"></div>
-&lt;<span class="pl-ent">div</span>&gt; type="text/css" rel="stylesheet" href="animate.css" &lt;<span class="pl-ent">div</span>&gt;
+&lt;div&gt; type="text/css" rel="stylesheet" href="animate.css" &lt;div&gt;
 </pre>
 给元素加上 class 后，刷新页面，就能看到动画效果了。animated 类似于全局变量，它定义了动画的持续时间；bounce 是动画具体的动画效果的名称，你可以选择任意的效果。
 如果动画是无限播放的，可以添加 class infinite。
